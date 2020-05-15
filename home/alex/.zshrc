@@ -89,5 +89,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias ovr='git --git-dir=$HOME/.overlay/ --work-tree=/'
