@@ -3,7 +3,7 @@
 GRUB_DEFAULT=0
 GRUB_TIMEOUT=0
 GRUB_DISTRIBUTOR="Arch"
-GRUB_CMDLINE_LINUX_DEFAULT="quiet loglevel=3 cryptdevice=/dev/nvme0n1p2:lvmroot resume=/dev/mapper/data-swap i915.fastboot=1 acpi_osi=Linux acpi_backlight=vendor"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet loglevel=3 cryptdevice=/dev/nvme0n1p2:lvmroot resume=/dev/mapper/data-swap i915.fastboot=1 acpi_osi=Linux acpi_backlight=vendor i915.i915_enable_rc6=1 i915.i915_enable_fbc=1 i915.lvds_downclock=1"
 GRUB_CMDLINE_LINUX=""
 
 # Preload both GPT and MBR modules so that they are not missed

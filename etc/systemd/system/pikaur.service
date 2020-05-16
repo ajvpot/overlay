@@ -1,0 +1,6 @@
+[Unit]
+Description=Update everything
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/pikaur -Syyu
