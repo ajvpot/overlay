@@ -90,3 +90,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias ovr='git --git-dir=$HOME/.overlay/ --work-tree=/'
+
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
