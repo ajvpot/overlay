@@ -14,7 +14,6 @@ output VIRTUAL1
 off
 output DP1-3
 crtc 1
-gamma 1.176:1.0:0.833
 mode 3840x2160
 pos 0x0
 rate 60.00
