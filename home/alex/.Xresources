@@ -11,10 +11,10 @@ URxvt.perl-ext-common: clipboard
 URxvt.clipboard.autocopy: true
 URxvt.keysym.M-c: perl:clipboard:copy
 URxvt.keysym.M-v: perl:clipboard:paste
-URxvt.font: xft:Source Code Pro for Powerline:size=12:antialias=true:hinting=true,xft:DejaVu Sans Mono:size=12,xft:Font Awesome 5 Free:size=12
-URxvt.boldFont: xft:Source Code Pro for Powerline:size=12:antialias=true:hinting=true,xft:DejaVu Sans Mono:size=12
-URxvt.italicFont: xft:Source Code Pro for Powerline:style=Oblique:size=12:antialias=true:hinting=true
-URxvt.boldItalicFont: xft:Source Code Pro for Powerline:style=Bold Oblique:size=12:antialias=true:hinting=true
+URxvt.font: xft:Source Code Pro for Powerline:size=12:antialias=true:hinting=true,xft:DejaVu Sans Mono:size=12,xft:Font Awesome 5 Free:size=12,xft:Noto Color Emoji:size=12
+URxvt.boldFont: xft:Source Code Pro for Powerline:size=12:antialias=true:hinting=true,xft:DejaVu Sans Mono:size=12,xft:Noto Color Emoji:size=12
+URxvt.italicFont: xft:Source Code Pro for Powerline:style=Oblique:size=12:antialias=true:hinting=true,xft:Noto Color Emoji:size=12
+URxvt.boldItalicFont: xft:Source Code Pro for Powerline:style=Bold Oblique:size=12:antialias=true:hinting=true,xft:Noto Color Emoji:size=12
 URxvt.letterSpace: -2
 URxvt.scrollBar: false
 
@@ -22,7 +22,7 @@ URxvt.background:  #2b2b2b
 URxvt.foreground:  #a9b7c6
 URxvt.color0:  #a9b7c6
 URxvt.color1:  #FF6B68
-URxvt.color2:  #A8C023
+URxvt.color2:  #198844
 URxvt.color3:  #D6BF55
 URxvt.color4:  #5394EC
 URxvt.color5:  #AE8ABE
@@ -30,7 +30,7 @@ URxvt.color6:  #299999
 URxvt.color7:  #efefef
 URxvt.color8:  #ffffff
 URxvt.color9:  #FF8785
-URxvt.color10:  #A8C023
+URxvt.color10:  #67ff4f
 URxvt.color11:  #FFFF00
 URxvt.color12:  #7EAEF1
 URxvt.color13:  #FF99FF
