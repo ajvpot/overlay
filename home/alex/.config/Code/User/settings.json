@@ -1,3 +1,5 @@
 {
-    "editor.fontFamily": "'Source Code Pro', 'monospace', monospace, 'Droid Sans Fallback'"
+    "editor.fontFamily": "'Source Code Pro', 'monospace', monospace, 'Droid Sans Fallback'",
+    "debug.console.fontFamily": "Source Code Pro",
+    "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif"
 }
