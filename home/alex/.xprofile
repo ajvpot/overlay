@@ -1,3 +1,4 @@
 export QT_QPA_PLATFORMTHEME=gtk2
 export QT_STYLE_OVERRIDE=gtk2
+export QT_SCALE_FACTOR_ROUNDING_POLICY=PassThrough
 xrdb -merge ~/.Xresources
