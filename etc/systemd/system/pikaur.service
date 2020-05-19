@@ -3,4 +3,4 @@ Description=Update everything
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/pikaur -Syyu
+ExecStart=/usr/bin/pikaur -Syyu --noconfirm
