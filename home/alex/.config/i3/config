@@ -10,7 +10,7 @@ font pango: Vulf Mono Regular 8
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork -c 3e434c
+exec --no-startup-id xss-lock --transfer-sleep-lock -n /usr/share/doc/xss-lock/dim-screen.sh -- i3lock --nofork -c 3e434c
 # lock hotkey
 bindsym $mod+l exec i3lock -c 3e434c
 
