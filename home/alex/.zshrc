@@ -73,3 +73,6 @@ alias ovr='git --git-dir=$HOME/.overlay/ --work-tree=/'
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 export GOPRIVATE=gitlab.vanderpot.com/*
+
+eval "$(direnv hook zsh)"
+export EDITOR="nano"
